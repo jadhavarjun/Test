@@ -1,6 +1,6 @@
 #!/bin/bash
 
-random=$((RANDOM%6+5))
+random=$((RANDOM%5+5))
 
 if [ $((random%2)) -eq 0 ]
 then
